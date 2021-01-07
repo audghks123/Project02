@@ -5,10 +5,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<a href="input.io">Input</a>
-	<a href="output.io">Output</a>
+	<form action="inputDB" method="post">
+		작성자 : <input type=text name=writer><br>
+		제목 : <input type=text name=title> <input type=submit value="확인">
+	</form>
 </body>
 </html>
