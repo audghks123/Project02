@@ -27,7 +27,7 @@ th {border-bottom: 1px solid #c1c1c1;}
 				</tr>
 			</c:forEach>
 	</table>
-	<button><a href="/"></a>뒤로가기</button>
+	<a href="#"><button>뒤로가기</button></a>
 
 </body>
 </html>
