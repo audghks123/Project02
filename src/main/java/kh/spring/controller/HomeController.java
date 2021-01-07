@@ -13,6 +13,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import org.springframework.web.bind.annotation.RequestMethod;
+
 import kh.spring.dto.PersonDTO;
 import kh.spring.service.InputService;
 
@@ -29,6 +32,8 @@ public class HomeController {
 	public String home() {	
 		return "home";
 	}
+	
+
 	@RequestMapping("input.io")
 	public String input() {
 		return "input";
@@ -51,3 +56,4 @@ public class HomeController {
 		return "output";	
 	}
 }
+
