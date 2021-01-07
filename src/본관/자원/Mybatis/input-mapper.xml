@@ -4,6 +4,6 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
   <mapper namespace="input">
      <insert id="insert">
-      insert into person values(person_seq.nextval,#{writer},#{title},default);
+      insert into person values(person_seq.nextval,#{writer},#{title},default)
      </insert>
   </mapper>
