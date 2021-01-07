@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import kh.spring.dao.OutputDAO;
+import kh.spring.dto.PersonDTO;
 
 @Service
 public class OutputService {
@@ -13,8 +14,8 @@ public class OutputService {
 	@Autowired
 	private OutputDAO odao;
 	
-	public List<PersonDTO> select()throws Exception{
-		return odao.select();
+	public List<PersonDTO> selectList()throws Exception{
+		return odao.selectList();
 	}
 
 }
